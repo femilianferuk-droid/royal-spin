@@ -21,7 +21,7 @@ from psycopg2 import pool
 from psycopg2.extras import RealDictCursor
 
 # ============ CONFIG ============
-BOT_TOKEN = os.environ.get("BOT_TOKEN", "PUT_YOUR_TELEGRAM_BOT_TOKEN_HERE")
+BOT_TOKEN = os.environ.get("BOT_TOKEN", "8923229410:AAFvjPnloV6L4_kfnWE39gWW3CEXiLB8zjo")
 DATABASE_URL = os.environ.get(
     "DATABASE_URL",
     "postgresql://bothost_db_e7be6fc4ab15:dNEy8t5wXfBCOaZlrwKQ4T3VDsC7oiHP_J_BdDAM2UI@node1.pghost.ru:15810/bothost_db_e7be6fc4ab15",
