@@ -22,10 +22,10 @@ from psycopg2 import pool
 from psycopg2.extras import RealDictCursor
 
 # ============ CONFIG ============
-BOT_TOKEN = os.environ.get("BOT_TOKEN", "8923229410:AAFvjPnloV6L4_kfnWE39gWW3CEXiLB8zjo")
+BOT_TOKEN = os.environ.get("BOT_TOKEN", "8361709660:AAHFOfvt1G_YsS79A66yP9DPGVlhMbMjMUQ")
 DATABASE_URL = os.environ.get(
     "DATABASE_URL",
-    "postgresql://bothost_db_ca92e7da6b5b:PjgrwMR_4i6NkmIQg74TOQhfmirO2xvfQwQke-09ek4@node1.pghost.ru:15738/bothost_db_ca92e7da6b5b",
+    "postgresql://bothost_db_fb587bd5cfc7:nxrYSSziFvKTp24e5vuivV9NEapvBJDWdCaK3cwX5Rw@node1.pghost.ru:15742/bothost_db_fb587bd5cfc7",
 )
 MIN_STAKE = 1
 MAX_STAKE = 500
