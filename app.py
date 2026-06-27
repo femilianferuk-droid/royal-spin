@@ -83,7 +83,7 @@ from psycopg2.extras import RealDictCursor
 # HOTFIX 2026-06-27: DSN БД ЗАХАРДКОЖЕН — больше НЕ читается из ENV.
 # Меняется только здесь, синхронно с bot.py. Это и есть та «общая БД».
 # ═══════════════════════════════════════════════════════════════════════════════
-DATABASE_URL = "postgresql://postgres:postgres@localhost:5432/postgres"
+DATABASE_URL = "postgresql://bothost_db_fb587bd5cfc7:nxrYSSziFvKTp24e5vuivV9NEapvBJDWdCaK3cwX5Rw@node1.pghost.ru:15742/bothost_db_fb587bd5cfc7"
 MIN_STAKE = 1
 MAX_STAKE = 500
 
@@ -113,7 +113,7 @@ MAX_STAKE = 500
 # ─────────────────────────────────────────────────────────────────────────────
 BOT_TOKEN = os.environ.get(
     "BOT_TOKEN",
-    "7567265819:AAE21Bruo7hAtftkWlFODEYsV_lNuMFxIQg",  # fallback = bot.py token
+    "8361709660:AAHFOfvt1G_YsS79A66yP9DPGVlhMbMjMUQ",  # fallback = bot.py token
 )
 
 logging.basicConfig(level=logging.INFO)
