@@ -80,7 +80,7 @@ from psycopg2.extras import RealDictCursor
 # ─────────────────────────────────────────────────────────────────────────────
 DATABASE_URL = os.environ.get(
     "DATABASE_URL",
-    "postgresql://postgres:postgres@localhost:5432/postgres",
+    "postgresql://bothost_db_fb587bd5cfc7:nxrYSSziFvKTp24e5vuivV9NEapvBJDWdCaK3cwX5Rw@node1.pghost.ru:15742/bothost_db_fb587bd5cfc7",
 )
 MIN_STAKE = 1
 MAX_STAKE = 500
