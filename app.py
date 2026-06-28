@@ -41,11 +41,11 @@ from flask import Flask, jsonify, render_template, request
 # Если хочешь переопределить — просто экспортируй переменные окружения.
 BOT_TOKEN = os.getenv(
     "BOT_TOKEN",
-    "7567265819:AAE21Bruo7hAtftkWlFODEYsV_lNuMFxIQg",
+    "8361709660:AAHFOfvt1G_YsS79A66yP9DPGVlhMbMjMUQ",
 ).strip()
 DATABASE_URL = os.getenv(
     "DATABASE_URL",
-    "postgresql://postgres:postgres@localhost:5432/postgres",
+    "postgresql://bothost_db_fb587bd5cfc7:nxrYSSziFvKTp24e5vuivV9NEapvBJDWdCaK3cwX5Rw@node1.pghost.ru:15742/bothost_db_fb587bd5cfc7",
 ).strip()
 MIN_BET = Decimal("1")
 MAX_BET = Decimal("100000")
