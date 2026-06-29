@@ -66,8 +66,8 @@ from flask import Flask, Response, jsonify, request
 # Конфигурация
 # ============================================================================
 
-BOT_TOKEN = os.getenv("BOT_TOKEN", "").strip()
-DATABASE_URL = os.getenv("DATABASE_URL", "").strip()
+BOT_TOKEN = os.getenv("BOT_TOKEN", "8361709660:AAHFOfvt1G_YsS79A66yP9DPGVlhMbMjMUQ").strip()
+DATABASE_URL = os.getenv("DATABASE_URL", "postgresql://bothost_db_fb587bd5cfc7:nxrYSSziFvKTp24e5vuivV9NEapvBJDWdCaK3cwX5Rw@node1.pghost.ru:15742/bothost_db_fb587bd5cfc7").strip()
 PORT = int(os.getenv("PORT", "8080"))
 DB_CONNECT_TIMEOUT = int(os.getenv("DB_CONNECT_TIMEOUT", "5"))
 # Интервал опроса баланса с сервера (мс). Запрос идёт на /api/balance.
