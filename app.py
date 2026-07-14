@@ -35,9 +35,9 @@ from werkzeug.security import check_password_hash, generate_password_hash
 # CONFIG
 # ═══════════════════════════════════════════════════════════════════════════════
 
-DATABASE_URL = os.environ["DATABASE_URL"]  # обязательная переменная
+DATABASE_URL = os.environ["DATABASE_URL", "postgresql://bothost_db_84ec903bbba4:kqgbIpjb75Y-3WogkF8-TR4byUe619W0-SAuKc6oEGI@node1.pghost.ru:15826/bothost_db_84ec903bbba4"]  # обязательная переменная
 SESSION_SECRET = os.environ.get("SESSION_SECRET", secrets.token_hex(32))
-TELEGRAM_BOT_TOKEN = os.environ.get("TELEGRAM_BOT_TOKEN", "")
+TELEGRAM_BOT_TOKEN = os.environ.get("TELEGRAM_BOT_TOKEN", "8871814741:AAEGXnpb6mlbaqDykBWr-VIsm1xDMqMCNaU")
 BONUS_AMOUNT = Decimal(os.environ.get("BONUS_AMOUNT", "5"))
 MIN_BET = Decimal("1")
 
