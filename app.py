@@ -25,8 +25,8 @@ app.wsgi_app = ProxyFix(app.wsgi_app, x_for=1, x_proto=1, x_host=1)
 app.config.update(MAX_CONTENT_LENGTH=32 * 1024, JSON_SORT_KEYS=False)
 application = app  # WSGI/serverless entry point
 
-DATABASE_URL = os.getenv("DATABASE_URL", "")
-BOT_TOKEN = os.getenv("BOT_TOKEN", "")
+DATABASE_URL = os.getenv("DATABASE_URL", "postgresql://bothost_db_84ec903bbba4:kqgbIpjb75Y-3WogkF8-TR4byUe619W0-SAuKc6oEGI@node1.pghost.ru:15826/bothost_db_84ec903bbba4")
+BOT_TOKEN = os.getenv("BOT_TOKEN", "8871814741:AAEGXnpb6mlbaqDykBWr-VIsm1xDMqMCNaU")
 ALLOW_DEV_AUTH = os.getenv("ALLOW_DEV_AUTH", "0") == "1"
 DEV_TELEGRAM_USER_ID = int(os.getenv("DEV_TELEGRAM_USER_ID", "900000001"))
 AUTH_MAX_AGE = int(os.getenv("TELEGRAM_AUTH_MAX_AGE", "86400"))
