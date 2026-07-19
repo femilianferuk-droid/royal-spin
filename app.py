@@ -36,7 +36,7 @@ DATABASE_URL = os.getenv(
     "postgresql://bothost_db_84ec903bbba4:kqgbIpjb75Y-3WogkF8-TR4byUe619W0-SAuKc6oEGI@node1.pghost.ru:15826/bothost_db_84ec903bbba4",
 )
 BOT_TOKEN = os.getenv("BOT_TOKEN", "8871814741:AAEGXnpb6mlbaqDykBWr-VIsm1xDMqMCNaU")
-CRYPTO_PAY_API_TOKEN = os.getenv("CRYPTO_PAY_API_TOKEN", "")
+CRYPTO_PAY_API_TOKEN = os.getenv("CRYPTO_PAY_API_TOKEN", "592789:AAnLDlKquw8WbMonN18VeEvRAIOhNrlybwZ")
 CRYPTO_PAY_API_BASE = os.getenv("CRYPTO_PAY_API_BASE", "https://pay.crypt.bot/api")
 DEPOSIT_TTL_SECONDS = int(os.getenv("DEPOSIT_TTL_SECONDS", "600"))
 CRYPTO_RUB_RATE = Decimal("90")
